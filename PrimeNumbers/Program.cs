@@ -7,11 +7,11 @@ class Program
         int num = 7;
         if (IsPrime(num))
         {
-            Console.WriteLine("{0} is a prime number.", num);
+            Console.WriteLine($"{num} is a prime number.");
         }
         else
         {
-            Console.WriteLine("{0} is not a prime number.", num);
+            Console.WriteLine($"{num} is not a prime number.");
         }
     }
 
@@ -35,4 +35,3 @@ class Program
         return true;
     }
 }
-
