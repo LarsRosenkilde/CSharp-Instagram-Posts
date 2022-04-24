@@ -5,7 +5,14 @@ class Program
     public static void Main(string[] args)
     {
         int num = 7;
-        Console.WriteLine(IsPrime(num) ? $"{num} is a prime number!" : $"{num} is not a prime number!");
+        if (IsPrime(num))
+        {
+            Console.WriteLine("{0} is a prime number.", num);
+        }
+        else
+        {
+            Console.WriteLine("{0} is not a prime number.", num);
+        }
     }
 
     private static bool IsPrime(int num)
